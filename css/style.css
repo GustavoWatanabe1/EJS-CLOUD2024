@@ -103,7 +103,7 @@
 
     .galeria{
         margin-bottom: 20px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .galeria ul{
@@ -143,10 +143,10 @@
     }
 
     #galeria-titulo{
+    margin-top: 100px;
     scroll-margin-top: 200px;
     padding-top: 10px;
     margin-left: 27px;
-    bottom: 30px;
     }
 
     .galeria-all{
@@ -154,14 +154,15 @@
         background-color: #9badff;
     }
 
-    #nossa-equipe{
-        scroll-margin-top: 160px; /* ajuste esse valor conforme a altura do seu menu fixo */
+    #nossa-equipe{    
+        scroll-margin-top: 50px; /* ajuste esse valor conforme a altura do seu menu fixo */
         color: #fff;
-        padding-top: 10px;
+        padding-top: 200px;
         padding-bottom: 2px;
         margin-left: 27px;
-        margin-top: 1000px;
+        margin-top: 800px;
     }
+
     .equipe-fotos li{
         margin: 10px;
         list-style-type: none;
@@ -190,8 +191,9 @@
 
     #links-titulo{
         margin-left: 30px;
-        margin-top: 500px;
+        margin-top: 300px;
         margin-bottom: 30px;
+        scroll-margin-top: 400px;
     }
 
     .links-list{
@@ -214,7 +216,7 @@
         text-decoration: none;
         color: #fff;
     }
-    
+
     .links-list li:hover{
     background-color: #9badff;
     transition: 0.5s;
