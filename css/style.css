@@ -81,7 +81,7 @@
     }
     
     #sobre-nos-titulo{
-        scroll-margin-top: 5px;
+        scroll-margin-bottom: 10px;
     }
 
        #excute-2025{
@@ -154,10 +154,10 @@
         }
     .nav-list {
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     right: 0;
     width: 70vw;
-    height: 93vh;
+    height: 91vh;
     background: #232328;
     flex-direction: column;
     align-items: center;
