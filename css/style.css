@@ -240,7 +240,7 @@
 
     .nav-list {
     position: absolute;
-    top: 18vh;
+    top: 12vh;
     right: 0;
     width: 65vw;
     height: 85vh;
@@ -262,7 +262,7 @@
         overflow-wrap:break-word;
       }
       .excute-img {
-        height: 80px;
+        height: 60px;
         float: none;
         display: block;
         margin: 20px auto;
