@@ -81,7 +81,7 @@
     }
     
     #sobre-nos-titulo{
-        scroll-margin-bottom: 10px;
+        scroll-margin-top: 150px;
     }
 
        #excute-2025{
@@ -122,6 +122,23 @@
         margin-left: 27px;
         margin-bottom: 10px;
     }
+     footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
 
     nav{
     display: flex;
@@ -240,9 +257,9 @@
 
     .nav-list {
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     right: 0;
-    width: 65vw;
+    width: 100vw;
     height: 90vh;
     background: #232328;
     flex-direction: column;

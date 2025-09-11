@@ -24,9 +24,21 @@ link.style.animation
 addClickEvent(){
     this.mobileMenu.addEventListener("click", this.handleClick);
 }
+  addCloseOnLinkClick() {
+    this.navLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        this.navList.classList.remove(this.activeClass);
+        this.mobileMenu.classList.remove(this.activeClass);
+        this.navLinks.forEach(link => (link.style.animation = "")); // limpa animações
+      });
+    });
+  }
+
+
 init (){
     if(this.mobileMenu){
         this.addClickEvent();
+        this.addCloseOnLinkClick();
     }
     return this;
 }
