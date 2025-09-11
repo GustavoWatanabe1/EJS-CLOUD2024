@@ -24,7 +24,11 @@
         font-weight: bold;
     
     }
-    
+
+    h1{
+        padding-bottom: 10px;
+    }
+
     p {
         color: rgb(119, 119, 119);
         padding-right: 20px;
@@ -122,23 +126,6 @@
         margin-left: 27px;
         margin-bottom: 10px;
     }
-     footer {
-      background-color: #222;
-      color: #fff;
-      text-align: center;
-      padding: 20px 10px;
-      font-size: 14px;
-    }
-
-    footer a {
-      color: #4CAF50;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
 
     nav{
     display: flex;
@@ -270,6 +257,8 @@
     }
 
       h1 {
+        padding-bottom: 10px;
+        display: inline-block;
         word-wrap: break-word;
         overflow-wrap:break-word;
         font-size: 1.2rem;
@@ -310,6 +299,7 @@
     }
 
       h1 {
+        display: inline-block;
         word-wrap: break-word;
         overflow-wrap:break-word;
         font-size: 1.2rem;
