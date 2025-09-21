@@ -46,7 +46,7 @@ init (){
 const mobileNavBar = new MobileNavBar (".mobile-menu", ".nav-list", ".nav-list li");
 mobileNavBar.init();
 
-document.getElementById('insta', 'youtube').addEventListener('click', function() {
+document.getElementById('insta', 'youtube', 'monografia').addEventListener('click', function() {
     window.open(this.href, '_blank').focus();
   });
 
