@@ -62,21 +62,22 @@
  
     
     header{
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
-    height: calc(2*30px);
+    height: calc(2*20px);
     width: 100%; /* Garante que a barra ocupe toda a largura da tela */
     background-color: #232328; /* Cor de fundo da barra (preto) */
     color: #fff; /* Cor do texto (branco) */
     padding: 20px 0; /* Adiciona espaço interno à barra */
     z-index: 100; /* Garante que a barra fique na frente de outros elementos */
     }
-    
-    .logo img {
-        height: calc(150px * 8); /* Ajuste o tamanho da logo */
-        position: absolute;
-        left: 70px; /* Ajuste a posição horizontal */
+    .logo{
+      align-items: center;
+      height: calc(60px*2);
+      margin-top:calc(2px*2);
+      margin-right:calc(18px*2);
     }
 
     .logo img:hover{
@@ -87,19 +88,6 @@
     #sobre-nos-titulo{
         scroll-margin-top: 150px;
     }
-
-       #excute-2025{
-        scroll-margin-top: 500px;
-    }
-    .excute-img {
-        float: right;
-        height: 90px;
-        margin: 20px;
-        background-color: #fff;
-        padding: 10px;
-        border-radius: 5px;
-        max-width: 100%;
-      }
 
     .sobre-nos{
         color:#989797;
@@ -117,10 +105,6 @@
         color: #fff;
     }
 
-    #excute-2025 h1{
-        margin-left: 27px;
-        margin-bottom: 30px;
-    }
 
     .sobre-nos h2{
         margin-left: 27px;
@@ -134,7 +118,7 @@
     font-family: Arial, Helvetica, sans-serif;
     background: #232328;
     height: 8vh;
-    padding: 4px;
+    padding: 2px;
     }
     
     .nav-list{
@@ -165,6 +149,13 @@
         body{
         overflow-x: hidden;
         }
+     
+    .logo{
+      align-items: center;
+      height: calc(55px*2);
+      margin-top:calc(12px*2);
+      margin-right:calc(15px*2);
+    }
     .nav-list {
     position: absolute;
     top: 13vh;
@@ -185,15 +176,12 @@
     }
     .mobile-menu{
     display: block;
+    justify-content: center;
+    position: relative;
+    float: right;
+
     }
     }   
-          .logo img {
-            top:2px;
-            height: calc(60px * 2); /* Ajuste o tamanho da logo */
-            position: absolute;
-            left: 70px; /* Ajuste a posição horizontal */
-        }
-    
     .nav-list.active{
     transform: translateX(0);
     }
@@ -244,7 +232,7 @@
 
     .nav-list {
     position: absolute;
-    top: 10vh;
+    top: 18vh;
     right: 0;
     width: 100vw;
     height: 90vh;
@@ -267,13 +255,7 @@
         word-wrap: break-word;
         overflow-wrap:break-word;
       }
-      .excute-img {
-        height: 60px;
-        float: none;
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-      }
+
      }
 
      @media (orientation: landscape) and (max-width:600px) {
@@ -286,10 +268,10 @@
 
     .nav-list {
     position: absolute;
-    top: 25vh;
+    top: 17vh;
     right: 0;
     width: 100vw;
-    height: 75vh;
+    height: 86vh;
     background: #232328;
     flex-direction: column;
     align-items: center;
@@ -308,12 +290,5 @@
       p{
         word-wrap: break-word;
         overflow-wrap:break-word;
-      }
-      .excute-img {
-        height: 60px;
-        float: none;
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
       }
 }
