@@ -91,7 +91,7 @@
 
     .sobre-nos{
         color:#989797;
-        margin-top: 200px;
+        margin-top: 150px;
         text-align: justify;
         position: absolute;
     }
@@ -178,7 +178,6 @@
     display: block;
     justify-content: center;
     position: relative;
-    float: right;
 
     }
     }   
@@ -229,10 +228,19 @@
         margin: 0;
         font-size: 0.85rem;
         }
-
+      .logo{
+      align-items: center;
+      height: calc(55px*2);
+      margin-top:calc(5px*2);
+      margin-right:calc(15px*2);
+    }
+    .mobile-menu{
+    display: block; 
+    margin-bottom: 10px;
+        }
     .nav-list {
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     right: 0;
     width: 100vw;
     height: 90vh;
@@ -270,7 +278,7 @@
     position: absolute;
     top: 17vh;
     right: 0;
-    width: 100vw;
+    width:95vw;
     height: 86vh;
     background: #232328;
     flex-direction: column;
