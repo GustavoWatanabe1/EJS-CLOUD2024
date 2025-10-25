@@ -30,7 +30,7 @@
     }
 
     p {
-      margin-right: 200px;
+        margin-right: 50px;
         color: rgb(119, 119, 119);
         padding-right: 20px;
         font-family: sans-serif;
@@ -159,7 +159,7 @@
     }
     .nav-list {
     position: absolute;
-    top: 18vh;
+    top: 12vh;
     right: 0;
     width: 100vw;
     height: 91vh;
