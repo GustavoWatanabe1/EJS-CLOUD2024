@@ -154,7 +154,7 @@
     .logo{
       align-items: center;
       height: calc(55px*2);
-      margin-top:calc(12px*2);
+      margin-top:calc(5px*2);
       margin-right:calc(15px*2);
     }
     .nav-list {
@@ -179,6 +179,7 @@
     display: block;
     justify-content: center;
     position: relative;
+    margin-bottom: 10px;
 
     }
     }   
